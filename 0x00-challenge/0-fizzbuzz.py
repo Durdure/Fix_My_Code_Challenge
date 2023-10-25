@@ -25,7 +25,7 @@ def fizzbuzz(n):
             tmp_result.append("Buzz")
         else:
             tmp_result.append(str(i))
-    return tmp_result
+    print(" ".join(tmp_result))
 
 
 if __name__ == '__main__':
@@ -37,4 +37,3 @@ if __name__ == '__main__':
 
     number = int(sys.argv[1])
     fizzbuzz(number)
-    print(' '.join(result))
